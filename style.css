@@ -49,21 +49,21 @@ section img{
 .profile-pic{
     height: 45vh;
     width: 45vh;
-    margin-top: -25%;
-    margin-left: 0.5%;
+    margin-top: -25vmin;
+    margin-left: 5vmin;
 }
 .github-icon{
     height: 5vh;
     width: 5vh;
-    margin-top: 5%;
-    margin-left: -10%;
+    margin-top: 0vmin;
+    margin-left: 0vmin;
     transition: transform .2s; 
 }
 .linkedin-icon{
     height: 5vh;
     width: 5vh;
-    margin-top: 5%;
-    margin-left: -7%;
+    margin-top: 0vmin;
+    margin-left: 0vmin;
     transition: transform .2s;
 }
 .linkedin-icon:hover {

@@ -1,6 +1,8 @@
 const sections = document.querySelectorAll("section");
 const navList = document.querySelectorAll("nav a");
 const jumper = document.querySelector(".jumper");
+const github = document.querySelector(".github-icon");
+const linkedin = document.querySelector(".linkedin-icon");
 const gradients = [
     "linear-gradient(to right top,  #022929, #69929e)",
     "linear-gradient(to right top,   #277c7c, #8aacb6)",
@@ -40,3 +42,7 @@ function navCheck(entries){
 sections.forEach(section =>{
     observer.observe(section);
 });
+
+github.onclick = () => {
+    return github.href = "http://github.com/Sapkotam";
+}
