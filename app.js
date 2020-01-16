@@ -42,7 +42,3 @@ function navCheck(entries){
 sections.forEach(section =>{
     observer.observe(section);
 });
-
-github.onclick = () => {
-    return github.href = "http://github.com/Sapkotam";
-}
