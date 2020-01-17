@@ -25,16 +25,16 @@ nav ul{
     font-size: 1.5rem;
     flex: 1;
 }
-nav ul{
+/* nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
-nav a{
+} */
+/* nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     transition: all 0.5s ease;
-}
+} */
 section{
     min-height: 100vh;
     border: 6px rgba(8, 8, 8, 0.363);
@@ -71,6 +71,7 @@ section a:hover{
 }
 /* rows and column */
 .hello {
+    font-style: unset;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
@@ -83,7 +84,7 @@ section a:hover{
                       rgb(4, 1, 7),
                       rgb(12, 0, 4),
                       rgb(15, 15, 2));
-    animation: 1s shake infinite alternate;
+    animation: .8s shake infinite alternate;
   }
   
   @keyframes shake {
@@ -120,10 +121,10 @@ section a:hover{
 
 /* pic modification */
   .profile-pic{
-    max-height: 45vh;
-    width: auto;
-    margin-top: 20%;
-    margin-left: 20%;
+    max-width: 50%;
+    height: auto;
+    margin-top: 30%;
+    margin-left: 30%;
     display: flex;
   }
 .github-icon{
@@ -190,7 +191,7 @@ section p{
     margin: 1px 0px 1px 0px;
     background: #f0f7fa;
 }
-.project{
+/* .project{
     margin: 1px 0px 1px 0px;
     background: #f0f7fa;
 }
@@ -201,7 +202,7 @@ section p{
 .contact{
     margin: 1px 0px 1px 0px;
     background: #f0f7fa;
-}
+} */
 .jumper{
     position: absolute;
     z-index: -2;
