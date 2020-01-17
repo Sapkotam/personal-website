@@ -1,6 +1,8 @@
 const sections = document.querySelectorAll("section");
 const navList = document.querySelectorAll("nav a");
 const jumper = document.querySelector(".jumper");
+const github = document.querySelector(".github-icon");
+const linkedin = document.querySelector(".linkedin-icon");
 const gradients = [
     "linear-gradient(to right top,  #022929, #69929e)",
     "linear-gradient(to right top,   #277c7c, #8aacb6)",
@@ -30,31 +32,13 @@ function navCheck(entries){
         activeAnchor.style.setProperty("color", "black");
         if(entry.isIntersecting){
             console.log(className);
-            // jumper.style.setProperty("height", `${direction.height}px`);
-            // jumper.style.setProperty("weidh", `${direction.weidh}px`);
-            // jumper.style.setProperty("top", `${direction.top}px`);
-            // jumper.style.setProperty("left", `${direction.left}px`);
-            //jumper.style.background = gradients[gradientIndex];
             activeAnchor.style.setProperty("color", "#2693f8");
             activeAnchor.style.setProperty('transform', 'scale(2)');
             activeAnchor.style.setProperty('transition', 'all 0.1s ease');
-            
         }
-        
     }) 
-    
 }
 
 sections.forEach(section =>{
     observer.observe(section);
 });
-
-// const newElement = document.querySelectorAll('h1');
-// console.log(newElement.textContent);
-
-// newElement.onclick = function() {
-//     console.log('clicked');
-//   };
-
-// const men = document.querySelectorAll("nav a");
-// console.log(men);
