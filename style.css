@@ -96,10 +96,9 @@ section p{
     -ms-background-clip: text;
     -ms-text-fill-color: transparent;
     background-clip: text;
-    background-image: linear-gradient(45deg, #0f42fa, #041968, #030c30, #01051f);
+    background-image: linear-gradient(45deg, #0f42fa, #041968, #030c30, #384cc0);
     animation: .8s shake infinite alternate;
   }
-  
   @keyframes shake {
     0% { transform: skewX(-15deg); }
     5% { transform: skewX(15deg); }
