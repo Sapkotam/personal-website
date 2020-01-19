@@ -97,7 +97,7 @@ section p{
     -ms-background-clip: text;
     -ms-text-fill-color: transparent;
     background-clip: text;
-    background-image: linear-gradient(45deg, #012136, #013b61, #034977, #0268ac);
+    background-image: linear-gradient(45deg, #012a46, #013b61, #034977, #0268ac);
     animation: .8s shake infinite alternate;
   }
   @keyframes shake {
