@@ -160,8 +160,8 @@ section p{
 }
 /* end pic modification */
 section h2{
-    /* display: inline-block; */
-    color: rgb(0, 10, 5);
+    display: inline-block;
+    color: rgb(5, 81, 143);
     text-align: center;
 
 }
