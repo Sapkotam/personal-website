@@ -160,7 +160,7 @@ section p{
 }
 /* end pic modification */
 section h2{
-    display: inline-block;
+    /* display: inline-block; */
     color: rgb(0, 10, 5);
     text-align: center;
 
