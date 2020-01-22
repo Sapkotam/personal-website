@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header {
     box-shadow: 0px, 3px, 10px, rgba(0,0,0,0.3);
@@ -86,6 +86,27 @@ section p{
     height:100vh;
     text-align: center;
 }
+ /* media query */
+ @media only screen and (max-width: 600px) {
+    .leftside{
+        width: 10%;
+        height:100vh;
+    }
+    .rightside{
+        width: 80%;
+        height:100vh;
+    }
+    .leftside .profile-pic{
+        max-width: 130px;
+        height: auto;
+        margin-top: 35%;
+        margin-left: 37vw;
+    }
+    .rightside .icones{
+        min-width: 60%; 
+    }
+  }
+
 /* rows and column */
 .hello {
     display: inline-block;
