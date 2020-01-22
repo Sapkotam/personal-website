@@ -97,13 +97,13 @@ section p{
         height:100vh;
     }
     .leftside .profile-pic{
-        max-width: 130px;
+        max-width: 140px;
         height: auto;
         margin-top: 35%;
-        margin-left: 37vw;
+        margin-left: 35vw;
     }
     .rightside .icones{
-        min-width: 60%; 
+        min-width: 62%; 
     }
   }
 
