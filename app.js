@@ -1,5 +1,5 @@
 const sections = document.querySelectorAll("section");
-const navList = document.querySelectorAll("nav a");
+//const navList = document.querySelectorAll("nav a");
 const jumper = document.querySelector(".jumper");
 const github = document.querySelector(".github-icon");
 const linkedin = document.querySelector(".linkedin-icon");
