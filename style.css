@@ -25,16 +25,16 @@ nav ul{
     font-size: 1.5rem;
     flex: 1;
 }
-/* nav ul{
+nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-} */
-/* nav a{
+} 
+nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     transition: all 0.5s ease;
-} */
+} 
 section{
     min-height: 100vh;
     border: 6px rgba(8, 8, 8, 0.363);
