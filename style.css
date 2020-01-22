@@ -86,7 +86,6 @@ section p{
     height:100vh;
     text-align: center;
 }
-<<<<<<< HEAD
  /* media query */
  @media only screen and (max-width: 600px) {
     .leftside{
@@ -109,10 +108,9 @@ section p{
   }
 
 /* rows and column */
-=======
 
 /* Intro hello */
->>>>>>> 5a8b63719f3e46eb6386132654b0754924f34b52
+/* >>>>>>> 5a8b63719f3e46eb6386132654b0754924f34b52 */
 .hello {
     display: inline-block;
     font-style: unset;
