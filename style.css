@@ -86,7 +86,8 @@ section p{
     height:100vh;
     text-align: center;
 }
-/* rows and column */
+
+/* Intro hello */
 .hello {
     display: inline-block;
     font-style: unset;
