@@ -1,8 +1,8 @@
 const sections = document.querySelectorAll("section");
-const navList = document.querySelectorAll("nav a");
+//const navList = document.querySelectorAll("nav a");
 const jumper = document.querySelector(".jumper");
-const github = document.querySelector(".github-icon");
-const linkedin = document.querySelector(".linkedin-icon");
+//const github = document.querySelector(".github-icon");
+//const linkedin = document.querySelector(".linkedin-icon");
 const gradients = [
     "linear-gradient(to right top,  #022929, #69929e)",
     "linear-gradient(to right top,   #277c7c, #8aacb6)",
