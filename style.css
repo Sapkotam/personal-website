@@ -25,16 +25,16 @@ nav ul{
     font-size: 1.5rem;
     flex: 1;
 }
-/* nav ul{
+nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-} */
-/* nav a{
+} 
+nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     transition: all 0.5s ease;
-} */
+} 
 section{
     min-height: 100vh;
     border: 6px rgba(8, 8, 8, 0.363);
@@ -86,6 +86,7 @@ section p{
     height:100vh;
     text-align: center;
 }
+<<<<<<< HEAD
  /* media query */
  @media only screen and (max-width: 600px) {
     .leftside{
@@ -108,6 +109,10 @@ section p{
   }
 
 /* rows and column */
+=======
+
+/* Intro hello */
+>>>>>>> 5a8b63719f3e46eb6386132654b0754924f34b52
 .hello {
     display: inline-block;
     font-style: unset;
